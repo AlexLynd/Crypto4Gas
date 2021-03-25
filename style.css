@@ -1,0 +1,71 @@
+/* Dashboard Styling */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Karla', sans-serif;
+}
+.sidenav {
+  padding: 10px;
+}
+.sidenav-card {
+  background-color: grey;
+}
+
+.bg-dark {
+    background-color: #0E141B !important;
+}
+.bg-dark-secondary {
+    background-color: #151E28;
+}
+.bg-dark-tertiary {
+    background-color: #1C2835;
+}
+.icon {
+  --size: 35px;
+  display: inline-block;
+  width: var(--size);
+  height: var(--size);
+
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.icon-bike {
+  background: white;
+
+  -webkit-mask-image: url('/img/icon/bell-solid.svg');
+  mask-image: url('/img/icon/bell-solid.svg');
+}
+
+
+.fa-2x {
+    font-size: 2px;
+}
+
+
+.centered {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    left: 0; /* chart js*/
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    opacity: 70%;
+}
+
+.test {
+    position: relative;
+}
+
+.card-max {
+    height: 100%;
+}
