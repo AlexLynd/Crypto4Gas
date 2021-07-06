@@ -16,9 +16,11 @@
 .bg-dark-secondary {
     background-color: #151E28;
 }
+
 .bg-dark-tertiary {
     background-color: #1C2835;
 }
+
 .icon {
   --size: 35px;
   display: inline-block;
@@ -36,11 +38,9 @@
   mask-image: url('/img/icon/bell-solid.svg');
 }
 
-
 .fa-2x {
     font-size: 2px;
 }
-
 
 .centered {
     top: 50%;
@@ -52,20 +52,40 @@
     color: white;
     left: 0; /* chart js*/
 }
-
-a {
+a, a:hover {
     color: white;
-}
-
-a:hover {
-    color: white;
-    opacity: 70%;
 }
 
 .test {
     position: relative;
 }
 
-.card-max {
-    height: 100%;
+.nav .card:not(.bg-primary):hover{
+    background-color: #6c757d77 !important;
+}
+.card {
+    margin: .1rem 0;
+    background-color: transparent ;
+}
+.card p {
+    display: inline;
+    margin-left: 5px;
+}
+.node:hover {
+    background-color: #6c757d1f !important;
+}
+.bg-green-primary {
+    border: 3px solid #66bb6a;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/* .card, .table-responsive {
+    border-radius: .5em;
+} */
+
+.table {
+    margin-bottom: 0;
 }
